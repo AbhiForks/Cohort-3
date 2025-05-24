@@ -1,0 +1,65 @@
+ /* @media only screen and (max-width: 600px) {
+    .topLink {
+      display: block;
+    }
+
+    .banner {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .banner a {
+      margin: 10px 0;
+    }
+
+    input[type="text"] {
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+    } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#0e0e0e;
+  font-size: large;
+
+}
+
+.links {
+  color: grey;
+  cursor: pointer;
+  padding-left: 22px;
+  /* padding-right: 22px; */
+}
+
+.banner {
+  background-color:rgb(32, 32, 64);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.highlights {
+  font-size: 60px;
+  color: beige;
+  display: flex;
+  justify-content: center;
+}
+
+.home-buttons {
+  color: rgb(83, 74, 208);
+  width: 30px;
+  font-size: 50px;
+  display: flex;
+  justify-content:center;
+}
