@@ -28,9 +28,37 @@
 
 // functions
 
-function greet(firstName) {
-  return "Hello " + firstName
+// function greet(firstName) {
+//   return "Hello " + firstName
+// }
+// let ans = greet ("abhilash")
+
+// console.log(ans);
+
+// function sum(a,b) {
+//   return a + b
+// }
+// let add = sum(34,45)
+// console.log(add);
+
+// Assignment2 
+// let age = 34
+
+// if (age > 18) {
+//   console.log("You are eligible to vote");
+// }
+// else if (age < 18) {
+//   console.log("You are not eligible to vote");
+// }
+
+function canVote (age) {
+  if (age > 18) {
+    return true;
+  }else {
+    return false;
+  }
 }
-let ans = greet ("abhilash")
+let ans = canVote(19)
 
 console.log(ans);
+
