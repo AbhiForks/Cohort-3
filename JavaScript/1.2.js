@@ -107,7 +107,6 @@ function sum(num) {
   for (let i = 1; i <= num; i++) {
     // add i to sum
     sum += i;
-  for (i = 0; i > sum; i= i + sum ){
   }
 
   // return sum
