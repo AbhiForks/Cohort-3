@@ -29,3 +29,16 @@
 // === End of Section 1 ===
 
 // === Section 2 Data Types ===
+// let age = 13;
+// let canVote = (age > 18)
+
+// console.log (canVote)
+
+// Function declaration
+// function square(n) {
+//   return n * n;
+// }
+
+// let result = square(5);  
+// console.log(result);  
+
