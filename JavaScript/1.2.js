@@ -110,3 +110,50 @@
 ////// Complex types - objects
 
 
+// let user1 = {
+//   name : "abhilash",
+//   age : 19,
+//   email : "abcd@gmail.com",
+//   friends : "0",
+// }
+
+// console.log(user1)
+// console.log("Abhi age is " + user1.age)
+// console.log("Abhi friends is " + user1.friends)
+
+
+// Assignment #1
+// Write a function that takes a user as an input and greets them with their name and age
+
+// function userFunction(user){
+//   return " hello i am " + user.name + " i am " + user.age + " years old "
+// }
+
+// let user = {
+//   name : "abhilash",
+//   age : 90,
+// }
+
+// console.log(userFunction(user));
+
+// Assignment #2
+// Write a function that takes a new object as input which has name , age  and gender and greets the user with their gender (Hi Mr/Mrs/Others harkirat, your age is 21)
+
+// function greetUser(user) {
+//   let title = "";
+//   if(user.gender == "male") {
+//     title = "Mr";
+//   } else if(user.gender == "female") {
+//     title = "Mrs";
+//   } else {
+//     title = "Others";
+//   }
+//   return "Hi " + title + " " + user.name + ", your age is " + user.age;}
+
+// let user = {
+//   name: "abhi",
+//   age: 21,
+//   gender: "male"
+// }
+
+// console.log(greetUser(user));
